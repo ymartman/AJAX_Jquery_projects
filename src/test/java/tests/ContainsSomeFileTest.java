@@ -35,6 +35,7 @@ public class ContainsSomeFileTest extends BaseTest {
 
         for (int i = 0; i < random; i++){
             previewPageLogic.fileButtonClick();
+            //переписать на то что бы ждало через java script пока jQuery.active == 0
             new WebDriverWait(DriverManager.currentDriver(), 10)
                     .until(ExpectedConditions.visibilityOfAllElements(previewPageLogic.get().getListOfFles()));
         }
