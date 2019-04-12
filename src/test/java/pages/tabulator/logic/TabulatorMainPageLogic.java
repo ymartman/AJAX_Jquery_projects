@@ -1,9 +1,9 @@
-package pages.logic;
+package pages.tabulator.logic;
 
 import driver.DriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import pages.TabulatorMainPage;
+import pages.tabulator.TabulatorMainPage;
 
 public class TabulatorMainPageLogic {
 

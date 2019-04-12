@@ -2,6 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite" parallel="classes" data-provider-thread-count="20" thread-count="10">
     <test name="IndieGoGo">
+        <parameter name="name" value="Brendon Philips"/>
         <packages>
             <package name="tests"/>
         </packages>
