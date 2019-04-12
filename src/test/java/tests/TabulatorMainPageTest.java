@@ -23,6 +23,7 @@ public class TabulatorMainPageTest extends BaseTest {
 
         tabulatorMainPageLogic.get().getLoadDataViaAJAXButton().click();
 
+        //Переписать на то что бы ждало исчезновения loading надписи
         new WebDriverWait(DriverManager.currentDriver(), 10)
                 .until(ExpectedConditions.visibilityOfAllElements(tabulatorMainPageLogic.get().getRowsOfTableAJAX() ));
 
